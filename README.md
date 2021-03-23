@@ -32,6 +32,7 @@ import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000'
+    gtm_server: 'www.googletagmanager.com'
 }
 
 TagManager.initialize(tagManagerArgs)
